@@ -49,21 +49,24 @@ body {
   text-align: center;
 }
 
+.line-app {
+  display: none;
+}
+
 .create_account {
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
   height: 806.99px;
   width: 100%;
   background-color: white;
   margin: 59px 0 0 0;
 }
-
-.img_app {
+.create_account .img_cel {
   display: flex;
   margin: -50px 0 0 40px;
 }
-
-.login {
+.create_account .login {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -75,7 +78,7 @@ body {
   margin-top: 233px;
   background-color: white;
 }
-.login .title {
+.create_account .login .title {
   font-family: Montserrat;
   font-weight: bold;
   font-size: 24px;
@@ -84,20 +87,19 @@ body {
   color: #FA4A0C;
   margin: 0%;
 }
-.login .subtitle {
+.create_account .login .subtitle {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 57px;
   letter-spacing: 0.2px;
   color: #252B42;
   margin: 27px 0 0 0;
 }
-.login .text {
+.create_account .login .text {
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 38px;
   letter-spacing: 0.2px;
   color: #737373;
@@ -105,96 +107,58 @@ body {
 }
 
 @media screen and (max-width: 414px) {
-  body {
-    float: none;
-    text-align: center;
+  .line {
+    display: none;
   }
 
   .app_function {
-    font-family: Poppins;
-    font-weight: 600;
     font-size: 1.5rem;
-    line-height: 36px;
-    letter-spacing: 0.1px;
-    color: #000000;
-    opacity: 0.8;
-    position: absolute;
     width: 242px;
-    height: 36px;
-    left: 86px;
-    top: 1267px;
+    margin-left: 86px;
+    top: 116px;
   }
 
-  .line {
-    position: absolute;
-    width: 414px;
-    height: 0px;
-    left: -1px;
-    top: 1307px;
+  .line-app {
+    display: block;
+    width: 100%;
+    margin-top: 49px;
     border: 3px solid #E4E4E4;
   }
 
   .create_account {
     float: none;
-    box-sizing: border-box;
     width: 100%;
     text-align: center;
-    justify-content: center;
+    height: auto;
+    height: 1158px;
   }
   .create_account .login {
-    display: flex;
     box-sizing: border-box;
-    flex-direction: column;
+    text-align: center;
     align-items: center;
-    padding: 0px;
-    position: absolute;
     width: 357px;
     left: 27.5px;
-    top: 1374px;
-    text-align: center;
-    justify-content: center;
+    margin-top: 10px;
   }
   .create_account .login .title {
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    letter-spacing: 0.1px;
     color: #FA4A0C;
     margin: 0px 10px;
   }
   .create_account .login .subtitle {
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 2.5rem;
-    line-height: 57px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #252B42;
     margin: 0px 10px;
     margin-top: 40px;
   }
   .create_account .login .text {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 38px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #737373;
     margin: 0px 10px;
     width: 257px;
     margin-top: 50px;
   }
-  .create_account .img_app {
+  .create_account .img_cel {
     width: 650px;
     position: absolute;
-    left: -118px;
-    top: 1957px;
+    left: -108px;
+    margin-top: 450px;
     justify-content: center;
-    text-align: center;
   }
 }
 .dowloand_app {
@@ -220,7 +184,7 @@ body {
 .dowloand_app .title1 {
   font-family: Montserrat;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 57px;
   text-align: center;
   letter-spacing: 0.2px;
@@ -228,9 +192,8 @@ body {
 }
 .dowloand_app .favorite_store {
   font-family: Montserrat;
-  font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1rem;
   line-height: 38px;
   text-align: center;
   letter-spacing: 0.2px;
@@ -291,11 +254,8 @@ body {
     align-items: center;
     box-sizing: border-box;
     padding: 110px 24px;
-    position: absolute;
-    width: 418px;
-    height: 564px;
-    left: -1px;
-    top: 4674px;
+    width: 100%;
+    top: 74px;
     background: #252B42;
   }
   .dowloand_app .img_warehouse {
@@ -315,6 +275,7 @@ body {
     margin: 50px 0px;
   }
   .dowloand_app .dowloand-cel .title2 {
+    text-align: center;
     font-family: Montserrat;
     font-weight: bold;
     font-size: 2.5rem;
@@ -338,52 +299,36 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    width: 339px;
-    height: 64px;
     margin: 13px 0px;
     margin-top: 60px;
   }
-  .dowloand_app .dowloand-cel .btn_buynow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .dowloand_app .dowloand-cel .btn1 .btn_buynow {
     padding: 18px 31px;
-    width: 138px;
-    height: 64px;
     background: #FA4A0C;
     border-radius: 10px;
     margin: 0px 16px;
     font-family: Montserrat;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
     flex: none;
     order: 0;
-    flex-grow: 0;
     margin: 0px 10px;
     border: none;
   }
-  .dowloand_app .dowloand-cel .btn_tryfor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 16px 45px;
-    width: 188px;
-    height: 60px;
-    left: 153px;
+  .dowloand_app .dowloand-cel .btn1 .btn_tryfor {
+    padding: 16px 40px;
     top: 2px;
     border: 1px solid #FFFFFF;
-    box-sizing: border-box;
     border-radius: 10px;
     flex: none;
     order: 1;
-    flex-grow: 0;
     margin: 0px 16px;
     font-family: Montserrat;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 28px;
     letter-spacing: 0.2px;
     color: #FFFFFF;
