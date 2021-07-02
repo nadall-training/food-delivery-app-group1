@@ -36,7 +36,7 @@ header{
         color: #252B42;
       }
       #home{
-        color: #FA4A0C;
+        color: $secondary;
     }
  }
 @media screen and (min-width:414px){
@@ -67,9 +67,6 @@ header{
                 line-height: 28px;
                 color: #252B42;
                 margin-left: 114px;
-            }
-            #home{
-                color: #FA4A0C;
             }
         } 
     }  
