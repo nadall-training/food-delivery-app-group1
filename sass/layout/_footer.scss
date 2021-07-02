@@ -1,0 +1,99 @@
+footer{
+    display: flex;
+    //align-items: center;
+    //text-align: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 168px;
+    width: 1210px;
+    height: 133px;
+    left: 115px;
+    background: white;
+    margin-bottom: 53px;
+    .logo{
+        display: flex;
+        margin-left: 71px;
+        margin-top: 16px;
+        margin-bottom: 15px;
+    }
+    .social_media{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        margin-left: 253px;
+        margin-top: 46px;
+        padding: 0px;
+        width: 170px;
+        height: 41px;
+        img{
+            width: 33.31px;
+            height: 27px;
+        }
+        .linkedin{
+            display: none;
+        }
+    }
+    .copywright{
+        margin-left: 280px;
+        margin-top: 64px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.1px;
+        color: #5C5C5C;
+    }
+    .just-app{
+        display: none;
+    }
+}
+@media screen and (max-width:414px){
+  .footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+       background-color: rgb(32, 146, 51);
+       margin-top: 0px;
+       width: 100%;
+       height: 172px;
+       text-align: center;
+       left: 0px;
+       background: white;
+       margin-bottom: 0px;
+       .logo{
+         display: none;
+     } 
+     .social_media{
+         display: flex;
+        margin-left: 0;
+        margin-top: 60px;
+        .linkedin{
+            display: block;
+        }
+        .instagram{
+           display: none;
+        }
+     }
+     .copywright{
+         display: none;
+     }
+     .just-app{
+         display: block;
+        margin-left: 0px;
+        margin-top: 8px;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.1px;
+        color: #5C5C5C;
+        margin-bottom: 45px;
+     }
+  }  
+}
