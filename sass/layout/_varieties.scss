@@ -1,0 +1,75 @@
+.varieties{
+    display: flex;
+    flex-direction: column;
+    h3{
+       margin-top: 44.18px;
+       font-size: 1.5rem;
+       line-height: 36px;
+       color: $secondary;
+    } 
+}
+.p1{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-weight: bold;    
+    font-size: 2.5rem;
+    line-height: 57px;
+    color: $primary;
+    width: 327px;  
+} 
+.p2{
+   margin: 0px;
+   font-weight: 500px; 
+   font-size: 1.5rem;
+   line-height: 38px;
+   color: $primary-light;
+   letter-spacing: 0.2px;
+   width: 257px;
+}
+.varieties > .cont_varieties{
+    font-family: 'Montserrat'; 
+    font-style: normal;
+    text-align: center;
+}
+.cont_varieties{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img_varieties{
+    display: flex;
+    justify-content: center;
+    margin-left: 108px;
+} 
+.title_desktop{
+    display: none;
+}
+@media screen and (min-width:414px){
+    .varieties{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title-movil{
+        display: none;
+    }
+    .title_desktop{
+        display: block;
+    }
+    .cont_varieties{
+        display: flex;
+        margin-left: 254px;
+        align-items: flex-start;
+    }
+    .p1{
+        margin: 0px;
+        width: 480px;
+    }
+    .p2{ 
+        margin-top: 27px;
+        width: 462px;
+    }
+    .varieties > .cont_varieties{
+       text-align: start;
+    }
+}
