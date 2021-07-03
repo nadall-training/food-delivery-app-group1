@@ -15,8 +15,9 @@ header{
     }
 }
  #menu{
+     background-color: #ffffff;
      display: none;
-     width: auto; 
+     width: 90%; 
      height: 100%;
      position: absolute;
       ul{
@@ -50,6 +51,7 @@ header{
                 height: 101.76px;
             }
         #menu{
+            width: auto;
             display: flex;
             align-items: center;
             margin-right: 50px;
@@ -60,12 +62,6 @@ header{
                 list-style: none;
             }
             a{
-                text-decoration: none;
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 600;
-                line-height: 28px;
-                color: #252B42;
                 margin-left: 114px;
             }
         } 

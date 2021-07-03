@@ -8,7 +8,7 @@ menuToggle.addEventListener("click", ()=>{
         visible=false;
     }else{
         menu.style.display = "block";
-        menu.style.backgroundColor = "#ffffff";
+       // menu.style.backgroundColor = "#ffffff";
         visible=true;
     }
 });
