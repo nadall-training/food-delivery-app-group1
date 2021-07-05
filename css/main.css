@@ -45,23 +45,22 @@ header .menu-toggle {
   height: 16px;
   color: #737373;
 }
-
-#menu {
+header #menu {
   background-color: #ffffff;
   display: none;
   width: 90%;
   height: 100%;
   position: absolute;
 }
-#menu ul {
+header #menu ul {
   list-style: none;
   margin-top: 58px;
   margin-left: 22px;
 }
-#menu ul li {
+header #menu ul li {
   margin-bottom: 20px;
 }
-#menu a {
+header #menu a {
   text-decoration: none;
   font-family: "Montserrat";
   font-style: normal;
@@ -69,7 +68,7 @@ header .menu-toggle {
   line-height: 28px;
   color: #252B42;
 }
-#menu #home {
+header #menu #home {
   color: #FA4A0C;
 }
 
@@ -98,6 +97,412 @@ header .menu-toggle {
     margin-left: 114px;
   }
 }
+.line {
+  display: none;
+}
+
+.app_function {
+  font-size: 1.5rem;
+  width: 242px;
+  margin-left: 86px;
+  top: 116px;
+}
+
+.line-app {
+  display: block;
+  width: 100%;
+  margin-top: 49px;
+  border: 3px solid #E4E4E4;
+}
+
+.create_account {
+  float: none;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  height: 1158px;
+}
+.create_account .login {
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  width: 357px;
+  left: 27.5px;
+  margin-top: 10px;
+}
+.create_account .login .title {
+  color: #FA4A0C;
+  margin: 0px 10px;
+}
+.create_account .login .subtitle {
+  margin: 0px 10px;
+  margin-top: 40px;
+}
+.create_account .login .text {
+  margin: 0px 10px;
+  width: 257px;
+  margin-top: 50px;
+}
+.create_account .img_cel {
+  width: 650px;
+  position: absolute;
+  left: -108px;
+  margin-top: 450px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 414px) {
+  .line {
+    align-items: center;
+    width: 884px;
+    height: 0px;
+    margin-top: 129px;
+    border: 3px solid #E4E4E4;
+  }
+
+  .app_function {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 2.75rem;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    opacity: 0.8;
+    margin-top: 72px;
+    text-align: center;
+  }
+
+  .line-app {
+    display: none;
+  }
+
+  .create_account {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 806.99px;
+    width: 100%;
+    background-color: white;
+    margin: 59px 0 0 0;
+  }
+  .create_account .img_cel {
+    display: flex;
+    margin: -50px 0 0 40px;
+  }
+  .create_account .login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 568px;
+    height: 280px;
+    position: static;
+    left: 718px;
+    margin-top: 233px;
+    background-color: white;
+  }
+  .create_account .login .title {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    margin: 0%;
+  }
+  .create_account .login .subtitle {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin: 27px 0 0 0;
+  }
+  .create_account .login .text {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 10px;
+  }
+}
+.dowloand_app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 110px 24px;
+  width: 100%;
+  top: 74px;
+  background: #252B42;
+}
+.dowloand_app .img_warehouse {
+  display: none;
+}
+.dowloand_app .dowloand-cel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 0px;
+  width: 330px;
+  height: 230px;
+  left: 44px;
+  top: 110px;
+  margin: 50px 0px;
+}
+.dowloand_app .dowloand-cel .title2 {
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin: 0px 10px;
+}
+.dowloand_app .dowloand-cel .calendars {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #BDBDBD;
+  margin: 20px 0px 0px 10px;
+}
+.dowloand_app .dowloand-cel .btn1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin: 13px 0px;
+  margin-top: 60px;
+}
+.dowloand_app .dowloand-cel .btn1 .btn_buynow {
+  padding: 18px 31px;
+  background: #FA4A0C;
+  border-radius: 10px;
+  margin: 0px 16px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  margin: 0px 10px;
+  border: none;
+}
+.dowloand_app .dowloand-cel .btn1 .btn_tryfor {
+  padding: 16px 40px;
+  top: 2px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  flex: none;
+  order: 1;
+  margin: 0px 16px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin: 0px 10px;
+  background: transparent;
+}
+
+@media screen and (min-width: 414px) {
+  .dowloand_app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dowloand_app .img_warehouse {
+    background-image: url("../img/warehouse.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+  }
+  .dowloand_app .dowloand_pc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin-top: -410px;
+  }
+  .dowloand_app .dowloand-cel {
+    display: none;
+  }
+  .dowloand_app .title1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+  }
+  .dowloand_app .favorite_store {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: -25px 0 0 0;
+  }
+  .dowloand_app .btn {
+    display: flex;
+    width: 331px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 60px;
+  }
+  .dowloand_app .btn_playstore {
+    padding: 18px 31px;
+    position: static;
+    width: 142px;
+    height: 64px;
+    background: #FA4A0C;
+    border-radius: 10px;
+    flex: none;
+    margin: 0px 16px;
+    border: none;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0px 10px;
+  }
+  .dowloand_app .btn_appstore {
+    padding: 16px 45px;
+    width: 178px;
+    height: 60px;
+    left: 158px;
+    top: 2px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0px 10px;
+    background: transparent;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #209233;
+  margin-top: 0px;
+  width: 100%;
+  height: 172px;
+  text-align: center;
+  left: 0px;
+  background: white;
+  margin-bottom: 0px;
+}
+.footer .logo {
+  display: none;
+}
+.footer .social_media {
+  display: flex;
+  margin-left: 0;
+  margin-top: 60px;
+}
+.footer .social_media .linkedin {
+  display: block;
+}
+.footer .social_media .instagram {
+  display: none;
+}
+.footer .copywright {
+  display: none;
+}
+.footer .just-app {
+  display: block;
+  margin-left: 0px;
+  margin-top: 8px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #5C5C5C;
+  margin-bottom: 45px;
+}
+
+@media screen and (min-width: 414px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 168px;
+    width: 1210px;
+    height: 133px;
+    left: 115px;
+    background: white;
+    margin-bottom: 53px;
+  }
+  .footer .logo {
+    display: flex;
+    margin-left: 71px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+  }
+  .footer .social_media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 253px;
+    margin-top: 46px;
+    padding: 0px;
+    width: 170px;
+    height: 41px;
+  }
+  .footer .social_media img {
+    width: 33.31px;
+    height: 27px;
+  }
+  .footer .social_media .linkedin {
+    display: none;
+  }
+  .footer .copywright {
+    margin-left: 280px;
+    margin-top: 64px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+  }
+  .footer .just-app {
+    display: none;
+  }
+}
 .varieties {
   display: flex;
   flex-direction: column;
@@ -108,8 +513,7 @@ header .menu-toggle {
   line-height: 36px;
   color: #FA4A0C;
 }
-
-.p1 {
+.varieties .p1 {
   margin-top: 40px;
   margin-bottom: 50px;
   font-weight: bold;
@@ -118,8 +522,7 @@ header .menu-toggle {
   color: #252B42;
   width: 327px;
 }
-
-.p2 {
+.varieties .p2 {
   margin: 0px;
   font-weight: 500px;
   font-size: 1.5rem;
@@ -128,26 +531,22 @@ header .menu-toggle {
   letter-spacing: 0.2px;
   width: 257px;
 }
-
-.varieties > .cont_varieties {
+.varieties .varieties > .cont_varieties {
   font-family: "Montserrat";
   font-style: normal;
   text-align: center;
 }
-
-.cont_varieties {
+.varieties .cont_varieties {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.img_varieties {
+.varieties .img_varieties {
   display: flex;
   justify-content: center;
   margin-left: 108px;
 }
-
-.title_desktop {
+.varieties .title_desktop {
   display: none;
 }
 
@@ -157,32 +556,26 @@ header .menu-toggle {
     justify-content: space-between;
     align-items: center;
   }
-
-  .title-movil {
+  .varieties .title-movil {
     display: none;
   }
-
-  .title_desktop {
+  .varieties .title_desktop {
     display: block;
   }
-
-  .cont_varieties {
+  .varieties .cont_varieties {
     display: flex;
     margin-left: 254px;
     align-items: flex-start;
   }
-
-  .p1 {
+  .varieties .p1 {
     margin: 0px;
     width: 480px;
   }
-
-  .p2 {
+  .varieties .p2 {
     margin-top: 27px;
     width: 462px;
   }
-
-  .varieties > .cont_varieties {
+  .varieties .varieties > .cont_varieties {
     text-align: start;
   }
 }
