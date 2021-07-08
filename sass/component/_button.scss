@@ -1,0 +1,16 @@
+.btn{
+    background: #FA4A0C;
+    padding: 16px 31px;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 36px;
+    color:#ffffff;
+    border: none;
+    &__outline{
+        border: 2px solid #FA4A0C;
+        background-color:#ffffff;
+        color: #FA4A0C;
+    }
+}

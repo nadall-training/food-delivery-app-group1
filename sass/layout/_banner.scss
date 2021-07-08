@@ -1,0 +1,122 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    .parrafos_bannner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .p1{
+        margin-top: 50px;
+        font-weight: bold;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color:$primary-light;
+    }
+    .p2{
+        margin-top: 17px;
+        font-weight: bold;
+        font-size: 2.25rem;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+        color: $primary;
+        width: 391px;
+        height: 128px;   
+    }
+    .p3{
+        margin-top: 27px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color:$primary-light;
+        max-width: 342px;
+    }
+    .store{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        button{
+            width: 236px;
+            &:last-child{
+                margin-top: 16px;
+            }
+        }
+    }
+    .app_food{
+        img{
+            max-width: 100%;
+        }
+    }
+    .p4{
+       margin-top: 116px;
+       margin-bottom: 49px;
+       font-weight: 600;
+       font-size: 1.5rem;
+       line-height: 36px;
+       text-align: center;
+    }
+    .hr_line{
+        border: 3px solid #E4E4E4;
+        width: 414px;
+    }
+}
+
+@media screen and (min-width:414px){
+    .banner{
+        background-image: url(../img/imgfood.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        .parrafos_bannner p{
+            color: #ffffff;
+            width: 937px;
+        }
+        .p1{
+            margin-top: 73px;
+            font-size: 1.5rem;
+            line-height: 36px;
+            color: #F7F7F7;
+        }
+        .p2{
+          font-family: 'Poppins';
+          font-size: 3.625rem;
+          line-height: 80px;
+        }
+        .p3{
+            max-width: 551px;
+        }
+        .store{
+            flex-direction: row;
+            margin-top: 54px;
+            justify-content: center;
+            button{
+                &:first-child{
+                    margin-right: 16px;
+                }
+                &.btn__outline{
+                    background-color: transparent;
+                    color: #ffffff;
+                    border: 2px solid #ffffff;
+                }
+            }
+        }
+        .app_food{
+            display: flex;
+            justify-content: center;
+        }
+        .hr_line1{
+            border: 3px solid #E4E4E4;
+            width: 884px;
+            margin-top: 128.9px;
+        }
+        .hr_line{
+            display: none;
+        }
+        .p4{
+            margin-top: 72px;
+            font-size: 2.75rem;
+        }
+    }
+}
