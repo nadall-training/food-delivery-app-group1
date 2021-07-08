@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-     background-color: rgb(32, 146, 51);
      width: 100%;
      height: 172px;
      background: white;
@@ -48,9 +47,9 @@
         justify-content: center;
     }
     .footer{
-        display: flex;
         flex-direction: row;
         box-sizing: border-box;
+        align-items: initial;
         justify-content: center;
         margin-top: 168px;
         width: 100%;
