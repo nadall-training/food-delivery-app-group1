@@ -4,7 +4,7 @@
     align-items: center;
      width: 100%;
      height: 172px;
-     background: white;
+     background:white;
      .logo{
        display: none;
    } 
@@ -44,15 +44,15 @@
 }  
 @media screen and (min-width:414px){
     footer{
-        justify-content: center;
+        display: flex;
+        justify-content: center;   
     }
     .footer{
         flex-direction: row;
         box-sizing: border-box;
         align-items: initial;
-        justify-content: center;
         margin-top: 168px;
-        width: 100%;
+        width: 1210px;
         height: 133px;
         left: 115px;
         margin-bottom: 53px;
@@ -63,8 +63,6 @@
             margin-bottom: 15px;
         }
         .social_media{
-            justify-content: center;
-            justify-content: space-between;
             margin-left: 253px;
             margin-top: 46px;
             padding: 0px;
@@ -83,7 +81,6 @@
             font-weight: bold;
             font-size: 12px;
             line-height: 18px;
-            letter-spacing: 0.1px;
             color: #5C5C5C;
         }
         .just-app{

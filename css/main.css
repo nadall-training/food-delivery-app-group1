@@ -136,7 +136,6 @@ header .menu-toggle {
 .subscribe .create_account .login .title {
   font-weight: bold;
   font-size: 1.5rem;
-  letter-spacing: 0.1px;
   color: #FA4A0C;
   margin-top: 65px;
 }
@@ -233,16 +232,15 @@ header .menu-toggle {
   display: none;
 }
 .create_checkout .checkout {
+  font-family: "Montserrat";
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  font-family: Montserrat;
 }
 .create_checkout .checkout .pa {
   font-weight: bold;
   font-size: 1.5rem;
-  letter-spacing: 0.1px;
   color: #FA4A0C;
   margin-top: 65px;
 }
@@ -337,13 +335,11 @@ header .menu-toggle {
   font-size: 2.5rem;
   line-height: 57px;
   color: white;
-  letter-spacing: 0.2px;
   margin: 0px 10px;
 }
 .dowloand_app .dowloand-cel .calendars {
   font-size: 1.5rem;
   line-height: 38px;
-  letter-spacing: 0.2px;
   color: #BDBDBD;
   margin: 20px 0 10px 0;
 }
@@ -391,6 +387,7 @@ header .menu-toggle {
   }
 
   .imagen {
+    font-family: Montserrat;
     display: block;
   }
   .imagen .img_warehouse {
@@ -401,29 +398,21 @@ header .menu-toggle {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     margin-top: -407px;
+    color: #FFFFFF;
   }
   .imagen .dowloand-cel {
     display: none;
   }
   .imagen .title1 {
-    font-family: Montserrat;
     font-weight: bold;
     font-size: 2.5rem;
     line-height: 57px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
   }
   .imagen .favorite_store {
-    font-family: Montserrat;
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 38px;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #FFFFFF;
     margin: -20px 0 0 0;
   }
   .imagen .btn {
@@ -431,7 +420,6 @@ header .menu-toggle {
     width: auto;
     flex-direction: row;
     justify-content: center;
-    padding: 0px;
     margin-top: 60px;
   }
   .imagen .btn_playstore {
@@ -447,8 +435,6 @@ header .menu-toggle {
     font-family: Montserrat;
     font-weight: bold;
     font-size: 1rem;
-    line-height: 28px;
-    letter-spacing: 0.2px;
     color: #FFFFFF;
     margin: 0px 10px;
   }
@@ -466,8 +452,6 @@ header .menu-toggle {
     font-family: Montserrat;
     font-weight: bold;
     font-size: 1rem;
-    line-height: 28px;
-    letter-spacing: 0.2px;
     color: #FFFFFF;
     margin: 0px 10px;
     background: transparent;
@@ -520,6 +504,7 @@ header .menu-toggle {
 
 @media screen and (min-width: 414px) {
   footer {
+    display: flex;
     justify-content: center;
   }
 
@@ -527,9 +512,8 @@ header .menu-toggle {
     flex-direction: row;
     box-sizing: border-box;
     align-items: initial;
-    justify-content: center;
     margin-top: 168px;
-    width: 100%;
+    width: 1210px;
     height: 133px;
     left: 115px;
     margin-bottom: 53px;
@@ -541,8 +525,6 @@ header .menu-toggle {
     margin-bottom: 15px;
   }
   .footer .social_media {
-    justify-content: center;
-    justify-content: space-between;
     margin-left: 253px;
     margin-top: 46px;
     padding: 0px;
@@ -561,7 +543,6 @@ header .menu-toggle {
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
-    letter-spacing: 0.1px;
     color: #5C5C5C;
   }
   .footer .just-app {

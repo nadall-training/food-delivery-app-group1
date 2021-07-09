@@ -4,15 +4,14 @@
             display: none;
         }
         .checkout{
+            font-family: 'Montserrat';
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 100%;
-            font-family: Montserrat;
             .pa{
                 font-weight: bold;
                 font-size: 1.5rem;
-                letter-spacing: 0.1px;
                 color: $secondary;
                 margin-top: 65px;
             }
