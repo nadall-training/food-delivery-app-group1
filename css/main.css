@@ -361,28 +361,5 @@ body {
     margin-bottom: 153px;
   }
 }
-.p1_title {
-  font-weight: bold;
-  font-size: 1.5rem;
-  line-height: 36px;
-  letter-spacing: 0.1px;
-  color: #FA4A0C;
-}
-
-.p2_subtitle {
-  font-weight: bold;
-  font-size: 2.5rem;
-  line-height: 57px;
-  letter-spacing: 0.2px;
-  color: #252B42;
-}
-
-.p3_contenido {
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 38px;
-  letter-spacing: 0.2px;
-  color: #737373;
-}
 
 /*# sourceMappingURL=main.css.map */
