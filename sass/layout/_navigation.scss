@@ -50,6 +50,10 @@
 @media screen and (min-width:414px){
     .main_header{
         height: 155px;
+        width: 100%;
+        position: fixed;
+        top:0;
+        background-color: #fff;
         .logo{
             margin: 26px 0 0 90px;
             img{

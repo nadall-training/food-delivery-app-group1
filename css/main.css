@@ -91,6 +91,10 @@ body {
 @media screen and (min-width: 414px) {
   .main_header {
     height: 155px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
   }
   .main_header .logo {
     margin: 26px 0 0 90px;
@@ -248,6 +252,7 @@ body {
     background-image: url(../img/imgfood.png);
     background-repeat: no-repeat;
     background-position-x: center;
+    margin-top: 155px;
   }
   .banner .parrafos_bannner p {
     color: #ffffff;
@@ -360,6 +365,29 @@ body {
     width: 462px;
     margin-bottom: 153px;
   }
+}
+.p1_title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #FA4A0C;
+}
+
+.p2_subtitle {
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.p3_contenido {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
 }
 
 /*# sourceMappingURL=main.css.map */
