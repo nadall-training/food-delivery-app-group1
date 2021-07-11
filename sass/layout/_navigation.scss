@@ -1,74 +1,92 @@
-header{
+.main_header{
     display: flex;
     justify-content: space-between;
-    .logo img{
-        width: 104px;
-        height: 51.37px;
-        margin: 17px 0px 43.63px 25px;
+    height: 112px;
+    .logo{
+        margin: 17px 0 0 25px;
+        img{
+            max-width: 104px;
+        }
     }
-    .menu-toggle{
-        margin-top: 48px;
-        margin-right: 23px;
-        width: 20px;
-        height: 16px;
-        color: #737373;
+    .main_menu{
+        background-color: #bcbaba;
+        display: none;
+        width: 100%; 
+        height: 100%;
+        position: absolute;
+         nav{
+           padding: 58px 0 0 22px;
+           margin-right: 56px;
+           height: 100%;
+           background-color: #fff;
+         }  
+         a{
+           text-decoration: none;
+           font-weight: 600;
+           line-height: 28px;
+           color: #252B42;
+           display: block;
+           &.active{
+               color: #fa4a0c;
+           }
+           &:not(:first-child){
+            margin-top: 20px;
+            }
+        }   
+    }
+    .close{
+        position: absolute;
+        top: 10px;
+        right: 81px;
     }
 }
- #menu{
-     display: none;
-     width: auto; 
-     height: 100%;
-     position: absolute;
-      ul{
-        list-style: none;
-        margin-top: 58px;
-        margin-left: 22px;
-        li{
-            margin-bottom: 20px;
-        }
-      }  
-      a{
-        text-decoration: none;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        line-height: 28px;
-        color: #252B42;
-      }
-      #home{
-        color: $secondary;
-    }
- }
+.menu-toggle{
+    display: flex;
+    align-items: center;
+    margin-right: 23px;
+    color: #737373;
+}
+ 
 @media screen and (min-width:414px){
-    header{
+    .main_header{
+        height: 155px;
+        width: 100%;
+        position: fixed;
+        top:0;
+        background-color: #fff;
+        z-index: 10;
+        .logo{
+            margin: 26px 0 0 90px;
+            img{
+                max-width: 206px;  
+            }
+        }
         .menu-toggle{
             display: none;
         }
-        .logo img{
-                margin: 26.12px 0px 27.12px 90px;
-                width: 206px;
-                height: 101.76px;
-            }
-        #menu{
+        .main_menu{
+            position: static;
+            width: auto;
             display: flex;
-            align-items: center;
-            margin-right: 50px;
-            height: auto;
-            position: relative;
-            ul{
+            min-width: 560px;
+            justify-content: space-between; 
+            nav{
+                height: auto;
                 display: flex;
-                list-style: none;
+                justify-content: space-between;
+                min-width: 560px;
+                padding-right: 50px;
+                margin-right: 0px;
             }
             a{
-                text-decoration: none;
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 600;
-                line-height: 28px;
-                color: #252B42;
-                margin-left: 114px;
+                display: inline;
+                &:not(:first-child){
+                    margin-top: 0;
+                }
+            }
+            .close{
+                display: none;
             }
         } 
     }  
 } 
-

@@ -1,0 +1,32 @@
+.btn{
+    background: #FA4A0C;
+    padding: 16px 31px;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 36px;
+    color:#ffffff;
+    border: none;
+    &__outline{
+        border: 2px solid #FA4A0C;
+        background-color:#ffffff;
+        color: #FA4A0C;
+    }
+}
+.btn_download{
+    background: #FA4A0C;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    padding: 18px 31px;
+    border: none;
+    font-size: 1rem;
+    &__download{
+        border: 1.5px solid #fff;
+        background: transparent;
+        padding: 16px 45px;
+    }
+}

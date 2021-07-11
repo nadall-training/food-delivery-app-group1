@@ -10,33 +10,105 @@
     <script defer src="index.js"></script>
   </head>
   <body>
-    <header>
-      <a name="logo-bella"></a>
+    <header class="main_header">
       <div class="logo">
         <a href="#logo-bella"><img src="img/Bella_logo.png"></a>
       </div>
-      <nav id="menu">
-        <ul>
-          <li><a href="#home" id="home">Home</a></li>
-          <li><a href="#product">Product</a></li>
-          <li><a href="#faq">Faq</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <section class="main_menu">
+        <nav>
+          <a href="#home" class="active">Home</a>
+          <a href="#product">Product</a>
+          <a href="#faq">Faq</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="close">X</div>
+      </section>
       <div class="menu-toggle">
-        <a href="#"><span class="material-icons toggle">menu</span></a>
+        <a href="#" id="toogle"><span class="material-icons">menu</span></a>
       </div>
     </header>
-    <main class="varieties">
-      <div class="cont_varieties">
-        <h3 class="title-movil">Explore while shopping</h3>
-        <h3 class="title_desktop">Explore varieties</h3>
-        <p class="p1">Shop for your favorites meal as e dey hot.</p>
-        <p class="p2">Shop for your  favorite meals or drinks and enjoy while doing it.</p>
+    <main class="banner">
+      <a name="logo-bella"></a>
+      <a name="home"></a>
+      <div class="parrafos_bannner">
+        <p class="p1">Food app</p>
+        <p class="p2">Why stay hungry when you can order form Bella Onojie</p>
+        <p class="p3">Download the bella onoje’s food app now on</p>
       </div>
-      <div class="img_varieties">
-        <img src="img/app_search.png">
+      <div class="store">
+        <button class="btn">Playstore</button>
+        <button class="btn btn__outline">App store</button>
       </div>
+      <div class="app_food">
+        <img src="img/app-food1.png">
+      </div>
+      <hr class="hr_line1">
+      <p class="p4">How the app works</p>
+      <hr class="hr_line">
     </main>
+    <section class="login">
+      <div class="parrafos">
+        <p class="p1_title">Create an account</p>
+        <p class="p2_subtitle">Create/login to an existing account to get started</p>
+        <p class="p3_contenido">An account is created with your email and a desired password</p>
+      </div>
+      <div class="app-login">
+        <img src="img/app_login.png">
+      </div>
+    </section>
+  <main class="varieties">
+    <a name="product"></a>
+    <div class="cont_varieties">
+      <p class="title-movil p1_title">Explore while shopping</p>
+      <p class="title_desktop p1_title">Explore varieties</p>
+      <p class="p2_subtitle">Shop for your favorites meal as e dey hot.</p>
+      <p class="p3_contenido">Shop for your  favorite meals or drinks and enjoy while doing it.</p>
+    </div>
+    <div class="img_varieties">
+      <img src="img/app_search.png">
+    </div>
+  </main>
+  <section class="checkout"> 
+    <a name="faq"></a> 
+      <div class="parrafos_checkout">
+        <p class="p1_title">Checkout</p>
+        <p class="p2_subtitle">When you done check out and get it delivered.</p>
+        <p class="p3_contenido">When you done check out and get it delivered with ease.</p>
+      </div>
+      <div class="img_checkout">
+        <img src="./img/app_checkout.png" >
+      </div> 
+  </section>
+<section class="download">
+  <div class="parrafos_download">
+    <p class="p2_subtitle">Download the app now.</p>
+    <p class="p3_contenido most_app">Most calendars are designed for teams.</p>
+    <p class="p3_contenido available_desktop">Available on your favorite store. Start your premium experience now</p>
+  </div>
+  <div class="botones_d1">
+    <button class="btn_download btn1">Buy now</button>
+    <button class="btn_download btn_download__download">Try for free</button>
+  </div>
+  <div class="botones_d2">
+    <button class="btn_download btn1">Playstore</button>
+    <button class="btn_download btn_download__download">App store</button>
+  </div>
+</section>
+  <footer>
+    <a name="contact"></a>
+    <div class="cont_footer">
+      <div class="logo">
+        <img src="./img/Bella_logo.png" alt="logo">
+      </div>
+      <div class="social_media">
+        <img class="twitter" src="./img/twitter.png" alt="twitter">
+        <img class="facebook" src="./img/facebook.png" alt="facebook">
+        <img class="instagram" src="./img/instagram.png" alt="instagram">
+        <img class="linkedin" src="./img/linkedin.png" alt="linkedin">
+      </div>
+      <div class="copywright">Copywright 2020 Bella Onojie.com</div>
+      <div class="just_app">Just type what's on your mind and we'll</div>
+    </div>
+  </footer> 
   </body>
 </html>
